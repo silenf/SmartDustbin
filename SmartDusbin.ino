@@ -37,10 +37,10 @@ String apiKey = "JPZKSYIDNIO48XA2";
 // If this device is deployed in the field you should only deploy a revocable
 // key. This code is only suitable for prototyping or if you retain physical
 // control of the installation.
-const char* account_sid = "AC685ff5db8f643923d35315d1b8e2bd18";
-const char* auth_token = "8a1f5f055cc3bc225b20115e7c814b7c";
+const char* account_sid = "YOUR_ACCOUNT_SID_TWILIO";
+const char* auth_token = "YOUR_AUTH_TOKEN_TWILIO";
 const char* server = "api.thingspeak.com";
-char auth[] = "egZqfziv6t9d6p42ODSr5rF-o6A-3Dka";
+char auth[] = "YOUR_AUTH_TOKEN";
 const int LED_ao = 4; //Auth for Blynk
 #define LED_a1 D6
 #define LED_a2 D7
@@ -50,12 +50,12 @@ WiFiClient client;
 
 // Details for the SMS we'll send with Twilio.  Should be a number you own 
 // (check the console, link above).
-String to_number    = "whatsapp:+919999635442";
-String from_number = "whatsapp:+14155238886";
+String to_number    = "whatsapp:+91999XXXXXXX";
+String from_number = "whatsapp:+1415523XXXX";
 String message_body    = "Dustbin #3 initialized/Rebooted";
 
 // The 'authorized number' to text the ESP8266 for our example
-String master_number    = "whatsapp:+14155238886";
+String master_number    = "whatsapp:+1415523XXXX";
 
 // Optional - a url to an image.  See 'MediaUrl' here: 
 // https://www.twilio.com/docs/api/rest/sending-messages
