@@ -29,7 +29,7 @@ const char* pass = "87654321";
 // Find the api.twilio.com SHA1 fingerprint, this one was valid as 
 // of August 2019.
 const char fingerprint[] = "06 86 86 C0 A0 ED 02 20 7A 55 CC F0 75 BB CF 24 B1 D9 C0 49";
-String apiKey = "JPZKSYIDNIO48XA2";
+String apiKey = "XXXXXXXXXXXXXXXX";
 // Twilio account specific details, from https://twilio.com/console
 // Please see the article: 
 // https://www.twilio.com/docs/guides/receive-and-reply-sms-and-mms-messages-esp8266-c-and-ngrok
